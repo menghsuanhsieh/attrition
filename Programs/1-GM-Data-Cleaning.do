@@ -1,12 +1,14 @@
-**** Replication Files for JDE Paper "Macroinsurance for Microenterprises" 
-***** by Matthew Groh and David McKenzie
+**********************************************************************
+**********************************************************************
+/*
+Cleaning data for Groh & McKenzie Application
+*/
+**********************************************************************
+**********************************************************************
 
-***Notes: Data and estimation in Stata 13
-***Users need to install the commands mat2txt, eststo, and ivreg2 by searching for these in the Stata menu
+* cd _________ // change working directory;
 
-
-cd "/Users/rexhsieh/Dropbox (University of Michigan)/Attrition RCT - Applications/1. Groh & McKenzie (2016)"
-use "MacroinsuranceforMicroentrepreneurs.dta", clear 
+use "Data/MacroinsuranceforMicroentrepreneurs.dta", clear 
 
 **** Variables needed:
 * profits truncated at 99th percentile following pre-analysis plan

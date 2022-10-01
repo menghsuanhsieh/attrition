@@ -17,7 +17,7 @@ pacman::p_load(data.table, sandwich, lmtest, haven, tidyverse, xtable)
 setwd(dirname(dirname(rstudioapi::getSourceEditorContext()$path)))
 
 # data
-gm_cleaned <- as.data.table(read_dta("Data/MacroInsurance_Cleaned.dta")) ## keep the unit with 16 individuals [(pair != "99999"),]
+gm_cleaned <- as.data.table(read_dta("Intermediate/MacroInsurance_Cleaned.dta")) ## keep the unit with 16 individuals [(pair != "99999"),]
 
 # table
 gm_attr_est <- data.table(reg = c("Monthly Consumption",
