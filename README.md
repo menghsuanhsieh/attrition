@@ -4,4 +4,4 @@ This repository contains replication files for the empirical application section
 
 Raw data for Groh & McKenzie (2016) can be found here: https://www.sciencedirect.com/science/article/pii/S0304387815000942#s0125
 
-Raw data for Casabury & Reed (2021) can be found here: https://www.openicpsr.org/openicpsr/project/135021/version/V1/view
+Raw data for Casaburi & Reed (2022) can be found here: https://www.openicpsr.org/openicpsr/project/135021/version/V1/view
